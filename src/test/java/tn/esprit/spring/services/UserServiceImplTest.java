@@ -7,4 +7,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 @TestMethodOrder(OrderAnnotation.class)
-class UserServiceImplTest {}
+class UserServiceImplTest {
+@Test
+    void contextLoads() {
+        // Test simple pour vérifier que le contexte Spring démarre
+    }
+}
